@@ -21,7 +21,7 @@ jobs:
 
     steps:
     - name: access directory
-      run: cd react_app_vite
+      run: ls
       
     - uses: actions/checkout@v4
     - name: Use Node.js ${{ matrix.node-version }}
